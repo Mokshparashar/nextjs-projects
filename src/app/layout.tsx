@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Moksh's App</title>
+      </head>
       <body className={inter.className}>
         <Header />
         {children}
